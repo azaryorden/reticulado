@@ -1,10 +1,9 @@
 # Reticulado
 
-## Intallation commands
-
-Run:
+## Instalacción
 
 ```
-virtualenv .env && source .env/bin/activate pip install -r requirements.txt
-
+python3 -m venv venv
+. venv/bin/activate
+pip install -e .
 ```
